@@ -1,0 +1,559 @@
+{
+	"info": {
+		"_postman_id": "645e6891-ed7d-43a3-85e3-0d687fc686e5",
+		"name": "API-Gestion_Interfer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37585425"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Admin Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "David Emanuel",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Morente Gonzalez",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "dmorente",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "dmorente@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "David_Morente242",
+									"type": "text"
+								},
+								{
+									"key": "profilePicture",
+									"type": "file",
+									"src": "/C:/Users/Informatica/Documents/Lab Interfer 147/Gestion-Interfer/public/uploads/profile-pictures/Logo_Interfer.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/auth/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"dmorente\",\r\n    \"password\": \"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "List Admins",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I4ODMwNDEzYjJkZDRlZjVjN2QxZWIiLCJpYXQiOjE3NDAxNDU0MjQsImV4cCI6MTc0MDE0OTAyNH0.ZM2YhlX7FHjJgfGGCnlotrQM0rLNxz6om4QVccyQyz8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/admin/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Admin By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA0MzU5MjYsImV4cCI6MTc0MDQzOTUyNn0.A8uGAUD3uK9Nt-u97FgNGpOKGYxtuebDl_hzbQGEQFs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/admin/findAdmin/67bceb9e7f819a734efacf9a",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"admin",
+								"findAdmin",
+								"67bceb9e7f819a734efacf9a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA0MzU0NTUsImV4cCI6MTc0MDQzOTA1NX0.mi0tx1Ejw7hRJoQ4SpzLGjomUZ7MyDETxvT3utiJtMQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"newPassword\":\"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/admin/updatePassword/67bceb9e7f819a734efacf9a",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"admin",
+								"updatePassword",
+								"67bceb9e7f819a734efacf9a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA0MzU0NTUsImV4cCI6MTc0MDQzOTA1NX0.mi0tx1Ejw7hRJoQ4SpzLGjomUZ7MyDETxvT3utiJtMQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "David Emanuel",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Morente Gonzalez",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "dmorente",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "dmorente@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "David_Morente242",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "ADMIN_ROLE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/admin/updateAdmin/67bceb9e7f819a734efacf9a",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"admin",
+								"updateAdmin",
+								"67bceb9e7f819a734efacf9a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Image",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA0MzU0NTUsImV4cCI6MTc0MDQzOTA1NX0.mi0tx1Ejw7hRJoQ4SpzLGjomUZ7MyDETxvT3utiJtMQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "profilePicture",
+									"type": "file",
+									"src": "/C:/Users/Informatica/Documents/Lab Interfer 147/Gestion-Interfer/public/uploads/profile-pictures/Parque_Interfer.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/admin/updateProfilePicture/67bceb9e7f819a734efacf9a",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"admin",
+								"updateProfilePicture",
+								"67bceb9e7f819a734efacf9a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "Add Company",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA1MTk4MDgsImV4cCI6MTc0MDUyMzQwOH0.hC5FyB3HQpGMvg_6mw1MD2rLj5rHBX8o7Z6NtlwL0oE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"companyName\": \"Syncronetix\",\r\n    \"entityType\": \"Negocios\",\r\n    \"businessCategory\": \"Videojuegos\",\r\n    \"impactLevel\": \"Gran impacto\",\r\n    \"yearsOfExperience\": \"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/company/addCompany",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"company",
+								"addCompany"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Companys and Filter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA1MjM0MzUsImV4cCI6MTc0MDUyNzAzNX0.x7N8ptupugMHTfzOD7ysjp57dqzm3-XvUZkmotuHmN8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Filter\": \"A-Z\"\r\n    //\"Filter\": \"Z-A\"\r\n    //\"Filter\": \"Ascendente\"\r\n    //\"Filter\": \"Descendente\"\r\n    //\"Filter\": \"Categoria\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/company/getCompanys",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"company",
+								"getCompanys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Company By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA1MTk4MDgsImV4cCI6MTc0MDUyMzQwOH0.hC5FyB3HQpGMvg_6mw1MD2rLj5rHBX8o7Z6NtlwL0oE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/company/findCompany/67be3a29325336e81dd7f1f7",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"company",
+								"findCompany",
+								"67be3a29325336e81dd7f1f7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Company",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2N2JjZWI5ZTdmODE5YTczNGVmYWNmOWEiLCJpYXQiOjE3NDA1MTk4MDgsImV4cCI6MTc0MDUyMzQwOH0.hC5FyB3HQpGMvg_6mw1MD2rLj5rHBX8o7Z6NtlwL0oE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"companyName\": \"Syncronetix\",\r\n    \"entityType\": \"Negocios\",\r\n    \"businessCategory\": \"Programacion\",\r\n    \"impactLevel\": \"Gran impacto\",\r\n    \"yearsOfExperience\": \"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/company/updateCompany/67be3a29325336e81dd7f1f7",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"company",
+								"updateCompany",
+								"67be3a29325336e81dd7f1f7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Report",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/gestorInterfer/v1/company/generateReport",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"gestorInterfer",
+								"v1",
+								"company",
+								"generateReport"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

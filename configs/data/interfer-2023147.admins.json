@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "67c292d18e33457cf1416e3a"
+  },
+  "name": "Steven Adrian",
+  "surname": "Soto Morataya",
+  "username": "ssoto",
+  "email": "ssoto@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$oJ+pUYn3FlyivKkFVfw8tQ$qp/ncZ+i+U5oPZ97lbw04/s7QXlhw6T+CLO1VlMw5gQ",
+  "profilePicture": "Logo_Interfer-1740804817685.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c293018e33457cf1416e40"
+  },
+  "name": "David Emanuel",
+  "surname": "Morente Gonzalez",
+  "username": "dmorente",
+  "email": "dmorente@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ex4v+Kkg92MVHbafoc4woA$edhU3L3QJZJBF20y3dcPMWqr1oVuR2Q5w9G2gQJwTNY",
+  "profilePicture": "Logo_Interfer-1740804865120.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c293278e33457cf1416e44"
+  },
+  "name": "Mario Andree",
+  "surname": "Rodriguez Zamboni",
+  "username": "mrodriguez",
+  "email": "mrodriguez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$IQay95sF8M8NAz+BCuZbRg$Y5DgqvUA+mf4obyVCIoIxbU4u85bAamNS3nvdL+z2fQ",
+  "profilePicture": "Logo_Interfer-1740804903729.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2934d8e33457cf1416e48"
+  },
+  "name": "Ian Fernando",
+  "surname": "Soto Morataya",
+  "username": "isoto",
+  "email": "isoto@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$/Yik4xDwKs1pebSc4lpZMg$ZtJy063pyS01eHh4zFoW3/3oXbSkxBfpFjTzlJ1oZ1E",
+  "profilePicture": "Logo_Interfer-1740804941314.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c293808e33457cf1416e4c"
+  },
+  "name": "Cristopher Alexander",
+  "surname": "Gomez Rojas",
+  "username": "cgomez",
+  "email": "cgomez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$pvjqOJ/s4QgGgwAoN3+2tw$5cWzu5ok+Gu1H4U9q7A4sxsElSmZnxw1otl40jgbb0U",
+  "profilePicture": "Logo_Interfer-1740804992479.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c293d88e33457cf1416e50"
+  },
+  "name": "Pedro Mateo",
+  "surname": "Rodriguez Gonzalez",
+  "username": "prodriguez",
+  "email": "prodriguez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$iGXADHoPEn3poDmvKLjaPg$LAR1WwL5LfejBQVgf27DDjkaosYWXDCRoelmKZR3vFY",
+  "profilePicture": "Logo_Interfer-1740805080471.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c293fa8e33457cf1416e54"
+  },
+  "name": "Benito Antonio",
+  "surname": "Martinez Ocasio",
+  "username": "bmartinez",
+  "email": "bmartinez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$pjW90kmvn9Ul8S200XCcIA$HPwk96eoYN5TpSJ/Vpl2ctWbEAwdiJN73Vm+X0aHwPI",
+  "profilePicture": "Logo_Interfer-1740805114149.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c294778e33457cf1416e58"
+  },
+  "name": "Randy Omar",
+  "surname": "Oscal Cabrera",
+  "username": "roscal",
+  "email": "roscal@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$Me0Jjt1nrkaDcsrqhfsjBA$S0h1aNM58CMOJ477GAsOQwRYomdadsgZCwa2hF32aiA",
+  "profilePicture": "Logo_Interfer-1740805239533.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2949c8e33457cf1416e5c"
+  },
+  "name": "Harol Anibal",
+  "surname": "Rodriguez Con",
+  "username": "hrodriguez",
+  "email": "hrodriguez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ObRWHheuX/qO5Bq/H9An8w$jbZ5KbC0tb+RLTrCdbj73DOoPAVdVOuijhAIY40JcVY",
+  "profilePicture": "Logo_Interfer-1740805276836.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c294cc8e33457cf1416e60"
+  },
+  "name": "Alexis Lisandro",
+  "surname": "Monroy de la Cruz",
+  "username": "amonroy",
+  "email": "amonroy@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$0KmZoHp6Zk7bEwM0aAkLYw$B3Nl8VkGARqIrZAjH4+5NMP9CJvQmPdgvzJnf86sb4A",
+  "profilePicture": "Logo_Interfer-1740805324918.png",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+}]

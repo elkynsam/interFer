@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "67c2952e8e33457cf1416e66"
+  },
+  "companyName": "Syncronetix",
+  "entityType": "Negocios",
+  "businessCategory": "Videojuegos",
+  "impactLevel": "Gran impacto",
+  "yearsOfExperience": 4,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:03:42.721Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:03:42.721Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c295378e33457cf1416e69"
+  },
+  "companyName": "TechNova",
+  "entityType": "Startup",
+  "businessCategory": "Inteligencia Artificial",
+  "impactLevel": "Alto impacto",
+  "yearsOfExperience": 2,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:03:51.971Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:03:51.971Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2953d8e33457cf1416e6c"
+  },
+  "companyName": "GreenSolutions",
+  "entityType": "Empresa",
+  "businessCategory": "Energías Renovables",
+  "impactLevel": "Medio impacto",
+  "yearsOfExperience": 6,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:03:57.606Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:03:57.606Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c295428e33457cf1416e6f"
+  },
+  "companyName": "CyberWare",
+  "entityType": "Corporación",
+  "businessCategory": "Ciberseguridad",
+  "impactLevel": "Gran impacto",
+  "yearsOfExperience": 10,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:02.486Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:02.486Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c295478e33457cf1416e72"
+  },
+  "companyName": "MediTech",
+  "entityType": "Startup",
+  "businessCategory": "Tecnología Médica",
+  "impactLevel": "Alto impacto",
+  "yearsOfExperience": 3,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:07.297Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:07.297Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2954b8e33457cf1416e75"
+  },
+  "companyName": "EduFuture",
+  "entityType": "ONG",
+  "businessCategory": "Educación Digital",
+  "impactLevel": "Gran impacto",
+  "yearsOfExperience": 7,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:11.639Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:11.639Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2954f8e33457cf1416e78"
+  },
+  "companyName": "AgroTech",
+  "entityType": "Negocio",
+  "businessCategory": "Agrotecnología",
+  "impactLevel": "Medio impacto",
+  "yearsOfExperience": 5,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:15.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:15.819Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c295538e33457cf1416e7b"
+  },
+  "companyName": "SpaceNet",
+  "entityType": "Corporación",
+  "businessCategory": "Exploración Espacial",
+  "impactLevel": "Gran impacto",
+  "yearsOfExperience": 15,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:19.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:19.770Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c295788e33457cf1416e7e"
+  },
+  "companyName": "FinTechPro",
+  "entityType": "Empresa",
+  "businessCategory": "Finanzas y Tecnología",
+  "impactLevel": "Alto impacto",
+  "yearsOfExperience": 8,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:56.050Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:56.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2957b8e33457cf1416e81"
+  },
+  "companyName": "SmartLiving",
+  "entityType": "Negocio",
+  "businessCategory": "Domótica",
+  "impactLevel": "Medio impacto",
+  "yearsOfExperience": 4,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T05:04:59.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T05:04:59.559Z"
+  }
+}]
